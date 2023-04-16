@@ -7,7 +7,8 @@ tommy.shape("turtle")
 tommy.pensize(5)
 turtle.colormode(255)
 
-def rando_color():
+
+def random_color():
     r = randint(0, 255)
     g = randint(0, 255)
     b = randint(0, 255)
@@ -15,22 +16,22 @@ def rando_color():
 
 
 def go_forward():
-    rando_color()
+    random_color()
     tommy.forward(10)
 
 
 def go_backward():
-    rando_color()
+    random_color()
     tommy.backward(10)
 
 
 def go_left():
-    rando_color()
+    random_color()
     tommy.left(10)
 
 
 def go_right():
-    rando_color()
+    random_color()
     tommy.right(10)
 
 
